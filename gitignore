@@ -1,0 +1,102 @@
+# ==============================
+# Visual Studio .gitignore
+# ==============================
+
+# Thu muc cau hinh rieng cua Visual Studio
+.vs/
+.vscode/
+
+# File cau hinh nguoi dung
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Thu muc build
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+# Ket qua test
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+
+# C / C++
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.idb
+*.pch
+*.tlog
+*.lastbuildstate
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+ipch/
+
+# .NET / NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Cache va file tam
+*.cache
+*.log
+*.tmp
+*.tmp_proj
+*.temp
+*.bak
+*.orig
+~$*
+*~
+
+# ReSharper / Rider / JetBrains
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.idea/
+
+# Publish
+PublishScripts/
+*.pubxml
+*.pubxml.user
+*.publishproj
+publish/
+
+# Bao mat - KHONG day len Git
+*.pfx
+*.snk
+secrets.json
+appsettings.Development.json
+.env
+
+# He dieu hanh
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
